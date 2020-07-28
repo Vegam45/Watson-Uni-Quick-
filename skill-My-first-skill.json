@@ -1,0 +1,4619 @@
+{
+  "intents": [
+    {
+      "intent": "COVID_Treatment_Vaccine",
+      "examples": [
+        {
+          "text": "Is there a vaccine for Covid-19"
+        },
+        {
+          "text": "is there a vaccine for Covid-19?"
+        },
+        {
+          "text": "Is there a vaccine for the coronavirus?"
+        },
+        {
+          "text": "Is there a vaccine for this"
+        },
+        {
+          "text": "Is there a vaccine?"
+        },
+        {
+          "text": "What's the status of a vaccine?"
+        },
+        {
+          "text": "When can I expect drugs for the virus?"
+        },
+        {
+          "text": "When will covid-19 medicines be ready?"
+        },
+        {
+          "text": "Why isn't there a vaccine yet?"
+        },
+        {
+          "text": "Covid-19 vaccine?"
+        },
+        {
+          "text": "How long does it take to develop a vaccine?"
+        },
+        {
+          "text": "How long will it be until there is a vaccine?"
+        },
+        {
+          "text": "Is it possible to estimate how long it will take to administer the drug / vaccine to people?"
+        },
+        {
+          "text": "Is the covid vaccine ready?"
+        },
+        {
+          "text": "Is there a covid vaccine?"
+        },
+        {
+          "text": "Is there a cure for covid 19?"
+        },
+        {
+          "text": "Is there a cure for covid-19?"
+        },
+        {
+          "text": "Is there a magical cure for covid-19?"
+        },
+        {
+          "text": "Is there a vaccine for corona virus"
+        },
+        {
+          "text": "Is there a vaccine for coronavirus?"
+        },
+        {
+          "text": "is there a vaccine for covid"
+        }
+      ],
+      "description": "Questions about vaccination."
+    },
+    {
+      "intent": "yes",
+      "examples": [
+        {
+          "text": "Correct"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "Please do."
+        },
+        {
+          "text": "You've got it right."
+        },
+        {
+          "text": "Please do that."
+        },
+        {
+          "text": "that is correct."
+        },
+        {
+          "text": "That's right"
+        },
+        {
+          "text": "yeah"
+        },
+        {
+          "text": "Yes, I'd like to go ahead with that."
+        },
+        {
+          "text": "Yup"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Covid19_Students",
+      "examples": [
+        {
+          "text": "Will the University be offering other virtual events for students?"
+        },
+        {
+          "text": "I am looking for information about covid19"
+        },
+        {
+          "text": "I need information about COVID 19"
+        },
+        {
+          "text": "I need more information about covid 19"
+        },
+        {
+          "text": "Will the University extend dates for accepting places/meeting entrance requirements to students who have had their education interrupted?"
+        },
+        {
+          "text": "I am not able to take my exams due to school closures. What can I do in this case?"
+        },
+        {
+          "text": "I am an international student and need Tier 4 Visa to study in the UK. When will I receive my CAS?"
+        },
+        {
+          "text": "I was made an offer for 2020 entry in the 2019 cycle, and would now like to defer entry to 2021. Can I do this?"
+        },
+        {
+          "text": "I will need to apply for a visa to study in the UK. In light of COVID 19 have there been changes to the application process that students need to be aware of?"
+        },
+        {
+          "text": "What kind of safety measures will be in place at students residences on campus?"
+        },
+        {
+          "text": "Is the University still considering applications from students acrosss the world, regardless of how their countries are affected by the coronavirus outbreak?"
+        },
+        {
+          "text": "My grades may be affected by either missing courses or being taught by distance learning. What account will you take of this?"
+        },
+        {
+          "text": "Can you give us more information about start of term arrangements and how teaching will be delivered?"
+        },
+        {
+          "text": "Will I be able to choose whether to attend in person or online?"
+        },
+        {
+          "text": "How is the University planning to manage the practical component of some degrees? (laboratories for instance)"
+        },
+        {
+          "text": "What considerations will be made for students who may be affected by flight restrictions?"
+        },
+        {
+          "text": "What is the deadline for accepting my offer?"
+        },
+        {
+          "text": "Currently the UK Government is imposing a 14-day quarantine for people going into the UK. Will there be any support from our University during the quarantine?"
+        },
+        {
+          "text": "Will the coronavirus outbreak affect my application to the University?"
+        },
+        {
+          "text": "For in-person teaching, what kind of safety measures will be put in place to protect both students and staff?"
+        },
+        {
+          "text": "Will student accommodation on campus be safe to live in?"
+        },
+        {
+          "text": "I hold an offer fro entry in September 2021, but would now like to attend in September 2020? Is this possible?"
+        },
+        {
+          "text": "Due to COVID 19, if I decide to withdraw my application, will I get a refund on the deposit paid?"
+        },
+        {
+          "text": "I would like to defer entry to September 2021. How can I do this?"
+        },
+        {
+          "text": "Is there a deadline by which I must request deferral?"
+        },
+        {
+          "text": "Do I still need to meet the conditions of my offer if I choose to defer entry to September 2021?"
+        },
+        {
+          "text": "Can I defer my entry to September 2021 after I have accepted an unconditional offer?"
+        },
+        {
+          "text": "Can I defer for a second time?"
+        },
+        {
+          "text": "Is deferral allowed fro my programme?"
+        },
+        {
+          "text": "Can I defer after I have accepted an unconditional offer?"
+        },
+        {
+          "text": "I am unable to take my English language test because the IELTS test centres are closed, how will this affect me?"
+        },
+        {
+          "text": "Will the University be offering pre-sessional English courses this summer?"
+        },
+        {
+          "text": "Will the University be holding virtual open days for prospective students?"
+        }
+      ],
+      "description": "How to keep up to date"
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "COVID_Travel_Restrictions",
+      "examples": [
+        {
+          "text": "What counts as travel?"
+        },
+        {
+          "text": "Should I change my travel plans?"
+        },
+        {
+          "text": "Should I cancel my flight to Denver?"
+        },
+        {
+          "text": "Is it safe to fly to Seattle?"
+        },
+        {
+          "text": "Is driving considered travel?"
+        },
+        {
+          "text": "Is commercial air travel suspended too?"
+        },
+        {
+          "text": "I traveled to Italy recently. What do I do?"
+        },
+        {
+          "text": "I just travelled. What do I do?"
+        },
+        {
+          "text": "do i need to stay home"
+        },
+        {
+          "text": "Do I need a doctor's note to travel?"
+        },
+        {
+          "text": "can I travel to Arkansas"
+        },
+        {
+          "text": "Can I travel out of the country?"
+        },
+        {
+          "text": "Can I travel in the current emergency situation?"
+        },
+        {
+          "text": "Can I travel for work?"
+        },
+        {
+          "text": "Are there any travel restrictions in place yet?"
+        },
+        {
+          "text": "airline travel"
+        },
+        {
+          "text": "Can I travel?"
+        },
+        {
+          "text": "Can I visit relatives in another state?"
+        },
+        {
+          "text": "What if I urgently need to take a flight?"
+        },
+        {
+          "text": "should i travel?"
+        }
+      ],
+      "description": "Status of travel restrictions."
+    },
+    {
+      "intent": "COVID_Testing_Locations",
+      "examples": [
+        {
+          "text": "where can i get a test"
+        },
+        {
+          "text": "Who do I contact if I want to get tested for covid 19 infection?"
+        },
+        {
+          "text": "where should I go to get screened"
+        },
+        {
+          "text": "where I can get tested"
+        },
+        {
+          "text": "Where do I go for COVID19 testing?"
+        },
+        {
+          "text": "where do I get a test"
+        },
+        {
+          "text": "where can i get tested"
+        },
+        {
+          "text": "Where can I test"
+        },
+        {
+          "text": "where can I order a coronavirus test"
+        },
+        {
+          "text": "Where can I go to get tested for COVID?"
+        },
+        {
+          "text": "where can I get tested in new mexico"
+        },
+        {
+          "text": "where can I get tested in Houston?"
+        },
+        {
+          "text": "where can I get tested in alabama"
+        },
+        {
+          "text": "where can I get tested for the coronavirus in New York"
+        },
+        {
+          "text": "Where can I get tested for cover-19"
+        },
+        {
+          "text": "Where can I get tested for coronavirus?"
+        },
+        {
+          "text": "where can i get tested for coronavirus"
+        },
+        {
+          "text": "Where can I get tested for Corona?"
+        },
+        {
+          "text": "where can i get screened?"
+        },
+        {
+          "text": "where can I get a test?"
+        },
+        {
+          "text": "where can I get a test kit"
+        },
+        {
+          "text": "where can I get a test done?"
+        },
+        {
+          "text": "Can I test myself at my house?"
+        },
+        {
+          "text": "Can I get tested at my doctor's?"
+        },
+        {
+          "text": "Can I get tested at Walgreens?"
+        },
+        {
+          "text": "can you direct me to the nearest test center"
+        },
+        {
+          "text": "How can I get a coronavirus test?"
+        },
+        {
+          "text": "How can I get a test"
+        },
+        {
+          "text": "how can i get screened"
+        },
+        {
+          "text": "how do I get a coronavirus test?"
+        },
+        {
+          "text": "how do i get a test?"
+        },
+        {
+          "text": "how do I get screened?"
+        },
+        {
+          "text": "How do I get tested?"
+        },
+        {
+          "text": "how do you test"
+        },
+        {
+          "text": "i am in new york where should i get tested"
+        },
+        {
+          "text": "i have symptoms. where can i get tested?"
+        },
+        {
+          "text": "I live in Austin, where can I get tested for Covid-19"
+        },
+        {
+          "text": "I live in Ontario, where can I get tested?"
+        },
+        {
+          "text": "I need to be checked for covid 19."
+        },
+        {
+          "text": "I need to get tested, where can I go?"
+        },
+        {
+          "text": "I want a coronavirus test"
+        },
+        {
+          "text": "I want a test for coronavirus"
+        },
+        {
+          "text": "I want to be tested for covid-19"
+        },
+        {
+          "text": "I want to get tested for covid soon"
+        },
+        {
+          "text": "I want to make an appointment for testing"
+        },
+        {
+          "text": "I want to test myself for coronavirus soon"
+        },
+        {
+          "text": "None of those sound like they cover how to get tested. Can you tell me how/where I can get tested?"
+        },
+        {
+          "text": "set an appointment for covid testing"
+        },
+        {
+          "text": "testing locations?"
+        },
+        {
+          "text": "testing spots for coronavirus?"
+        },
+        {
+          "text": "where can I be tested"
+        },
+        {
+          "text": "where can I get a coronavirus test"
+        },
+        {
+          "text": "Where can I get a COVID-19 test?"
+        },
+        {
+          "text": "where can I get a test done"
+        }
+      ],
+      "description": "Where to get tested."
+    },
+    {
+      "intent": "COVID_Paid_Leave",
+      "examples": [
+        {
+          "text": "will Texas provide paid sick leave"
+        },
+        {
+          "text": "will paid sick leave be available for Uber drivers?"
+        },
+        {
+          "text": "When am I entitled to take paid sick leave?"
+        },
+        {
+          "text": "Can i still get paid sick leave for 14 days if i get corona"
+        },
+        {
+          "text": "can i get paid sick leave"
+        },
+        {
+          "text": "am I eligible for sick leave"
+        },
+        {
+          "text": "am I eligible for paid sick leave"
+        },
+        {
+          "text": "Will I get paid if I have COVID-19?"
+        },
+        {
+          "text": "do i get paid leave time"
+        },
+        {
+          "text": "do I get paid sick leave"
+        },
+        {
+          "text": "does my workplace offer paid sick leave?"
+        },
+        {
+          "text": "duration of paid sick leave?"
+        },
+        {
+          "text": "how long can i get paid sick leave"
+        },
+        {
+          "text": "How much do I get paid for sick leave"
+        },
+        {
+          "text": "How much paid sick leave will I get if I am contracted with the virus?"
+        },
+        {
+          "text": "I work at a grocery store but my childcare is closed, is anything being setup to handle this?"
+        },
+        {
+          "text": "If I get sick will I continue to get paid?"
+        },
+        {
+          "text": "My job will not let me work from home. Do I qualify for paid sick leave?"
+        },
+        {
+          "text": "paid sick leave"
+        },
+        {
+          "text": "tell me about paid sick leave"
+        },
+        {
+          "text": "what if I don't have paid sick leave"
+        },
+        {
+          "text": "What if I don't have paid sick leave?"
+        },
+        {
+          "text": "Will my employer give me paid leave if I have coronavirus?"
+        },
+        {
+          "text": "Will I get paid leave?"
+        },
+        {
+          "text": "Will government employees be paid during sick leave?"
+        },
+        {
+          "text": "who is eligible to get paid sick leave"
+        },
+        {
+          "text": "who is able to get paid sick leave"
+        }
+      ],
+      "description": "Eligibility for paid leave."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "What is this 4?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "COVID_See_Doctor",
+      "examples": [
+        {
+          "text": "i have a fever. should i go to the hospital?"
+        },
+        {
+          "text": "should i go to the doctor now"
+        },
+        {
+          "text": "should i go to the ER if i have a cough"
+        },
+        {
+          "text": "Should I go to the hospital"
+        },
+        {
+          "text": "Should I make an appointment with my Dr?"
+        },
+        {
+          "text": "Should I see a doctor if I am not feeling well?"
+        },
+        {
+          "text": "Should I see a doctor if I am showing the symptoms?"
+        },
+        {
+          "text": "when did I need to call the doctor?"
+        },
+        {
+          "text": "When do i call a doctor"
+        },
+        {
+          "text": "when should I call a doctor"
+        },
+        {
+          "text": "when should I go to a doctor?"
+        },
+        {
+          "text": "When should I go to the doctor?"
+        },
+        {
+          "text": "Who should I call if I have symptoms?"
+        },
+        {
+          "text": "Where should I go if I suspect I have coronavirus?"
+        },
+        {
+          "text": "When should I go to the hospital?"
+        },
+        {
+          "text": "can I go to the hospital?"
+        },
+        {
+          "text": "Do I have to go to the hospital if I get COVID"
+        },
+        {
+          "text": "how do i know whether to go to the doctor?"
+        },
+        {
+          "text": "I am coughing.  Should I call my doctor?"
+        },
+        {
+          "text": "I have a cough but am breathing fine, should I go to the hospital or wait?"
+        },
+        {
+          "text": "If I think I have COVID-19, should I see my Dr?"
+        },
+        {
+          "text": "I'm coughing, should I go to the doctor?"
+        },
+        {
+          "text": "I suspect I have the virus who can I call?"
+        }
+      ],
+      "description": "Asking if it is possible to see a doctor."
+    },
+    {
+      "intent": "COVID_Testing_Information",
+      "examples": [
+        {
+          "text": "is there test kit for coronavirus"
+        },
+        {
+          "text": "my friend has it should i get tested"
+        },
+        {
+          "text": "ok - I've got enough of those that I think I need to get tested."
+        },
+        {
+          "text": "should i get tested if I do not have symptoms but think I've been exposed?"
+        },
+        {
+          "text": "Should we get tested if we only have symptoms"
+        },
+        {
+          "text": "testing travelers?"
+        },
+        {
+          "text": "What is the test to detect covid 19?"
+        },
+        {
+          "text": "When is the coronavirus test able to detect the disease?"
+        },
+        {
+          "text": "Can I get tested at home?"
+        },
+        {
+          "text": "can I get tested quickly?"
+        },
+        {
+          "text": "Can I test myself?"
+        },
+        {
+          "text": "coronavirus test kit"
+        },
+        {
+          "text": "do i need to get tested?"
+        },
+        {
+          "text": "I have a fever, should I get tested?"
+        },
+        {
+          "text": "I have symptoms. Should I get tested?"
+        },
+        {
+          "text": "Is it possible to detect the disease during the incubation period?"
+        },
+        {
+          "text": "Is it possible to test for covid 19 during the incubation period?"
+        },
+        {
+          "text": "Is the covid test able to detect infection even during the incubation period?"
+        },
+        {
+          "text": "is there a coronavirus test kit"
+        },
+        {
+          "text": "Is there a test for the coronavirus"
+        },
+        {
+          "text": "is there a test kit for coronavirus"
+        },
+        {
+          "text": "Is there a test kit for the coronavirus?"
+        }
+      ],
+      "description": "General questions about testing."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "Types_Visa",
+      "examples": [
+        {
+          "text": "What courses can I study on this visa?"
+        },
+        {
+          "text": "Short-Term Study visa"
+        },
+        {
+          "text": "Visa Tier 4"
+        },
+        {
+          "text": "Bring my family to the UK"
+        },
+        {
+          "text": "What would it be the right visa for me?"
+        },
+        {
+          "text": "Short term visa"
+        },
+        {
+          "text": "Child student visa"
+        },
+        {
+          "text": "I want to know more about visas"
+        },
+        {
+          "text": "Visas offered for international students"
+        },
+        {
+          "text": "What is a general student visa Tier 4?"
+        },
+        {
+          "text": "What is a short-term study visa?"
+        },
+        {
+          "text": "What is a child student visa Tier 4"
+        },
+        {
+          "text": "How many types of visa?"
+        },
+        {
+          "text": "How can I check if this visa is right for me or not?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Hi there"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "Do_I_need_a_Visa",
+      "examples": [
+        {
+          "text": "Do I need a Visa to study in the UK?"
+        },
+        {
+          "text": "I want to continue with my studies in the UK"
+        },
+        {
+          "text": "I want to do a Master degree in the UK"
+        },
+        {
+          "text": "I want to study in the UK"
+        },
+        {
+          "text": "What are the requirements to study in the UK?"
+        },
+        {
+          "text": "I am an international student and I want to study in the UK"
+        },
+        {
+          "text": "Do I need a UK visa?"
+        }
+      ],
+      "description": "Study in the UK"
+    },
+    {
+      "intent": "reservation",
+      "examples": [
+        {
+          "text": "I need to book a student accommodation"
+        },
+        {
+          "text": "I am looking for fully furnished apartments in the UK"
+        },
+        {
+          "text": "I need to make a reservation"
+        },
+        {
+          "text": "I am looking for accommodation in the UK"
+        },
+        {
+          "text": "Find for me the best student accommodation"
+        },
+        {
+          "text": "When should I book student accommodation?"
+        },
+        {
+          "text": "Looking for student accommodation"
+        },
+        {
+          "text": "I will continue my studies in the UK this year and I am looking for accommodation"
+        },
+        {
+          "text": "I want to reserve my room online"
+        },
+        {
+          "text": "I want to book my room now"
+        },
+        {
+          "text": "I want to book a student accommodation"
+        },
+        {
+          "text": "Can I get help with student accommodation?"
+        }
+      ],
+      "description": "When should I book a student accommodation"
+    },
+    {
+      "intent": "COVID_Illness_Length",
+      "examples": [
+        {
+          "text": "How long are people infected with COVID-19 before they are symptomatic?"
+        },
+        {
+          "text": "What is the incubation period of covid?"
+        },
+        {
+          "text": "How long before I experience covid-19 symptoms?"
+        },
+        {
+          "text": "How long before I get symptoms?"
+        },
+        {
+          "text": "how long can I expect to be sick?"
+        },
+        {
+          "text": "How long do I need to quarantine before I no longer can transmit the virus?"
+        },
+        {
+          "text": "how long do symptoms take to develop?"
+        },
+        {
+          "text": "how long does coronavirus last"
+        },
+        {
+          "text": "How long does COVID-19 last?"
+        },
+        {
+          "text": "how long does it last"
+        },
+        {
+          "text": "how long does it last?"
+        },
+        {
+          "text": "how long does it take for the virus to run through my system?"
+        },
+        {
+          "text": "how long does the corona virus last?"
+        },
+        {
+          "text": "How long does the coronavirus last?"
+        },
+        {
+          "text": "How long does the disease last?"
+        },
+        {
+          "text": "how long does the virus last"
+        },
+        {
+          "text": "how long does the virus last?"
+        },
+        {
+          "text": "how long is the incubation period for covid-19"
+        },
+        {
+          "text": "How long is the incubation period of covid 19?"
+        },
+        {
+          "text": "How long is the incubation period?"
+        },
+        {
+          "text": "How long will I feel terrible?"
+        },
+        {
+          "text": "Incubation period of coronavirus?"
+        }
+      ],
+      "description": "How long Covid lasts."
+    },
+    {
+      "intent": "COVID_Comparing_Illness",
+      "examples": [
+        {
+          "text": "is this the same as the flu?"
+        },
+        {
+          "text": "Is this worse than the flu?"
+        },
+        {
+          "text": "is this worse than flue"
+        },
+        {
+          "text": "is this worse than flu"
+        },
+        {
+          "text": "Is the coronavirus the same as SARS?"
+        },
+        {
+          "text": "Is the coronavirus the same as MERS?"
+        },
+        {
+          "text": "Is the coronavirus the same as a cold?"
+        },
+        {
+          "text": "is covid the same as the flu?"
+        },
+        {
+          "text": "How's the flu different from coronavirus?"
+        },
+        {
+          "text": "how is the flue different from the coronavirus?"
+        },
+        {
+          "text": "How is flu different from coronavirus"
+        },
+        {
+          "text": "How is corona virus different than SARS?"
+        },
+        {
+          "text": "how does cover-19 compare to the SARS epidemic?"
+        },
+        {
+          "text": "How do flu symptoms differ from coronavirus symptoms?"
+        },
+        {
+          "text": "Flu vs. COVID-19"
+        },
+        {
+          "text": "flu vs covid19"
+        },
+        {
+          "text": "Flu vs Coronavirus"
+        },
+        {
+          "text": "what's the difference between the flu and coronavirus"
+        },
+        {
+          "text": "What's the difference between flu and coronavirus?"
+        },
+        {
+          "text": "What's the difference between flu and coronavirus"
+        },
+        {
+          "text": "what is the difference between the flu and coronavirus"
+        },
+        {
+          "text": "what is the difference between flu and coronavirus"
+        },
+        {
+          "text": "What is the difference between COVID-19 and the flu"
+        },
+        {
+          "text": "What is different between flu and coronavirus"
+        },
+        {
+          "text": "SARS vs Corona virus?"
+        }
+      ],
+      "description": "Comparing Covid to other illnesses."
+    },
+    {
+      "intent": "Bank_Account",
+      "examples": [
+        {
+          "text": "Do I need a resident permit to open a bank account?"
+        },
+        {
+          "text": "What types of documents do I need to open a bank account"
+        },
+        {
+          "text": "Steps to open a bank account"
+        },
+        {
+          "text": "Open a bank account with a short-term visa"
+        },
+        {
+          "text": "Open a bank account for international students"
+        },
+        {
+          "text": "Can I open a bank account in the UK"
+        },
+        {
+          "text": "Can I open a bank account online?"
+        },
+        {
+          "text": "Open a bank account with a Tier 4 visa"
+        },
+        {
+          "text": "I want to open a bank account"
+        },
+        {
+          "text": "When do I have to pay back my overdraft?"
+        },
+        {
+          "text": "What do I need to open a student account?"
+        },
+        {
+          "text": "What is cashback?"
+        },
+        {
+          "text": "What’s an overdraft?"
+        },
+        {
+          "text": "How is a student account different from a regular current account?"
+        },
+        {
+          "text": "Which is the best bank for me?"
+        },
+        {
+          "text": "Should I make savings as a student?"
+        }
+      ],
+      "description": "Open a bank account in the UK - requirements for students"
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "COVID_Case_Count",
+      "examples": [
+        {
+          "text": "how many people are infected"
+        },
+        {
+          "text": "how many people are sick in the US?"
+        },
+        {
+          "text": "how many patients are infected with corona virus in collin county"
+        },
+        {
+          "text": "How many folks in Texas are infected?"
+        },
+        {
+          "text": "how many current cases are there in Illinois"
+        },
+        {
+          "text": "How many coronavirus cases are there in my area?"
+        },
+        {
+          "text": "How many cases of the virus are there in the world?"
+        },
+        {
+          "text": "How many cases of COVID-19 are in the US?"
+        },
+        {
+          "text": "how many cases are there in Texas?"
+        },
+        {
+          "text": "How has coronavirus spread around the world?"
+        },
+        {
+          "text": "has anyone died of coronavirus in my state?"
+        },
+        {
+          "text": "Does the US have a confirmed COVID case?"
+        },
+        {
+          "text": "Does MA have a confirmed COVID case?"
+        },
+        {
+          "text": "what is the count of coronavirus infected people?"
+        },
+        {
+          "text": "Find the right study visa"
+        },
+        {
+          "text": "Are there any cases near me"
+        },
+        {
+          "text": "are people infected in my city ?"
+        },
+        {
+          "text": "How many people in the world have died?"
+        },
+        {
+          "text": "How many people total have coronavirus?"
+        },
+        {
+          "text": "how many ppl are infected in the us?"
+        },
+        {
+          "text": "is anyone near me sick"
+        },
+        {
+          "text": "covid number in my state?"
+        },
+        {
+          "text": "Where are cases?"
+        },
+        {
+          "text": "Where can I find information about covid 19 for the world?"
+        },
+        {
+          "text": "Which countries has covid-19 been detected in?"
+        },
+        {
+          "text": "how many people in texas have corona virus?"
+        },
+        {
+          "text": "how many people have the virus?"
+        },
+        {
+          "text": "How many people have the virus in our county"
+        },
+        {
+          "text": "How many people have covid-19 in the whole world?"
+        },
+        {
+          "text": "how many people have contracted the virus in pennysylvania"
+        },
+        {
+          "text": "How many people are sick throughout the world?"
+        },
+        {
+          "text": "How many people are infected with Corona virus currently in texas?"
+        },
+        {
+          "text": "How many people are infected in Illinois?"
+        }
+      ],
+      "description": "Number of cases nearby."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "COVID_Masks_Availability",
+      "examples": [
+        {
+          "text": "I'd like a respirator"
+        },
+        {
+          "text": "How is it possible that the state does not have enough masks and respirators?"
+        },
+        {
+          "text": "How can I get a mask?"
+        },
+        {
+          "text": "Help me get a respirator"
+        },
+        {
+          "text": "Are there stores with protective face masks?"
+        },
+        {
+          "text": "Why can't I get or find a mask or a respirator anywhere?"
+        },
+        {
+          "text": "When can I buy a mask at a pharmacy?"
+        },
+        {
+          "text": "When can I buy a mask?"
+        },
+        {
+          "text": "When will masks be available at retail stores? They are not yet and we can get infected on public transport before they are."
+        },
+        {
+          "text": "When will masks be available?"
+        },
+        {
+          "text": "When will respirators and masks be finally sold?"
+        },
+        {
+          "text": "Where are face masks available?"
+        },
+        {
+          "text": "Where can I get masks?"
+        },
+        {
+          "text": "Where do people get protective masks or disinfectants?"
+        },
+        {
+          "text": "Who has masks and respirators?"
+        },
+        {
+          "text": "Why are no masks or respirators available anywhere?"
+        },
+        {
+          "text": "Why are there no masks and respirators in pharmacies?"
+        },
+        {
+          "text": "why aren't any masks available?"
+        },
+        {
+          "text": "Why aren't there enough masks and respirators?"
+        },
+        {
+          "text": "Why aren't there respirators?"
+        }
+      ],
+      "description": "Availability of masks."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "COVID_Treatment_Info",
+      "examples": [
+        {
+          "text": "can medication reduce fever caused by a possible covid infection?"
+        },
+        {
+          "text": "How can I lower my temperature if I have the coronavirus?"
+        },
+        {
+          "text": "How do I treat coronavirus?"
+        },
+        {
+          "text": "How do we treat covid?"
+        },
+        {
+          "text": "How to treat covid?"
+        },
+        {
+          "text": "I heard about a medication for coronavirus treatment"
+        },
+        {
+          "text": "Is there a medication that can help me feel better?"
+        },
+        {
+          "text": "Is there a medication to reduce temperature with covid-19?"
+        },
+        {
+          "text": "What is the treatment for covid-19?"
+        },
+        {
+          "text": "what medicine should I be taking for Covid 19"
+        },
+        {
+          "text": "Can I take ibuprofen if I have corona virus?"
+        },
+        {
+          "text": "Can I lower my temperature using medication?"
+        },
+        {
+          "text": "best vitamin to take"
+        },
+        {
+          "text": "Should I take Theraflu?"
+        },
+        {
+          "text": "what medicines work best"
+        },
+        {
+          "text": "what medicines should I take if I have coronavirus"
+        },
+        {
+          "text": "what medicine work best for treatment ?"
+        },
+        {
+          "text": "What medicine should I take for COVID 19"
+        },
+        {
+          "text": "Can medication be used to reduce fever?"
+        },
+        {
+          "text": "What medicine should I avoid taking if I have coronavirus"
+        },
+        {
+          "text": "what kind of medicine should I take"
+        },
+        {
+          "text": "Medication that helps with coronavirus"
+        },
+        {
+          "text": "What is the treatment for this disease?"
+        }
+      ],
+      "description": "How to treat Covid-19."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Another joke"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "exit",
+      "examples": [
+        {
+          "text": "Wait, cancel this."
+        },
+        {
+          "text": "Stop the reservation"
+        },
+        {
+          "text": "Cancel this process"
+        },
+        {
+          "text": "Exit!"
+        },
+        {
+          "text": "I want to stop"
+        },
+        {
+          "text": "I changed my mind. I don't want to make a reservation."
+        },
+        {
+          "text": "Nevermind."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "COVID_Unemployment_Application",
+      "examples": [
+        {
+          "text": "how long can I get unemployment?"
+        },
+        {
+          "text": "how do I apply for unemployment benefits?"
+        },
+        {
+          "text": "how do I apply for unemployment benefits due to Covid-19?"
+        },
+        {
+          "text": "What do I do if I don't have unemployment insurance?"
+        },
+        {
+          "text": "What happens if I lose my job?"
+        },
+        {
+          "text": "What if I got furloughed?"
+        },
+        {
+          "text": "where can I apply for unemployment"
+        },
+        {
+          "text": "how do I apply for unemployment because of covid-19"
+        },
+        {
+          "text": "how do I apply for unemployment"
+        },
+        {
+          "text": "how can I apply for unemployment?"
+        },
+        {
+          "text": "how can i apply for unemployment during this outbreak?"
+        },
+        {
+          "text": "How am I gonna pay my bills if I don't have a job anymore?"
+        },
+        {
+          "text": "what can I do if I lose my job?"
+        },
+        {
+          "text": "what can I do if I lose my job"
+        },
+        {
+          "text": "If I got furloughed, do I qualify for unemployment?"
+        },
+        {
+          "text": "i can't go to work.  can i get unemployment?"
+        },
+        {
+          "text": "how to I apply for unemployment"
+        },
+        {
+          "text": "I have a question about unemployment"
+        },
+        {
+          "text": "I just got laid off, now what?"
+        },
+        {
+          "text": "i need to apply for unemployment.  how do I do it"
+        },
+        {
+          "text": "apply for unemployment"
+        },
+        {
+          "text": "how to apply for unemployment"
+        },
+        {
+          "text": "how long does it take to get unemployment"
+        }
+      ],
+      "description": "How to apply for unemployment."
+    },
+    {
+      "intent": "COVID_Event_Shutdowns",
+      "examples": [
+        {
+          "text": "public events cancelled"
+        },
+        {
+          "text": "How do I know if my concert is cancelled?"
+        },
+        {
+          "text": "When will the NCAA championships be held?"
+        },
+        {
+          "text": "When will the major sports leagues start playing again?"
+        },
+        {
+          "text": "When are sports going to start back up?"
+        },
+        {
+          "text": "What sports are being cancelled?"
+        },
+        {
+          "text": "events and large gatherings"
+        },
+        {
+          "text": "event shutdowns"
+        },
+        {
+          "text": "can my church still meet"
+        },
+        {
+          "text": "can I still attend a conference"
+        },
+        {
+          "text": "can i go to church"
+        },
+        {
+          "text": "Are the museums closed?"
+        },
+        {
+          "text": "Are groups of people allowed to meet?"
+        },
+        {
+          "text": "Are events being shut down?"
+        },
+        {
+          "text": "What is the maximum number of people allowed to meet right now?"
+        },
+        {
+          "text": "Are churches closed"
+        },
+        {
+          "text": "Will I get a refund for a ticket I purchased?"
+        },
+        {
+          "text": "Why is the government shutting down my event?"
+        },
+        {
+          "text": "When will the NHL return?"
+        },
+        {
+          "text": "Should I feel safe going to the movies?"
+        },
+        {
+          "text": "Is it okay to partake in sports activities?"
+        }
+      ],
+      "description": "Event shutdowns and business closures."
+    },
+    {
+      "intent": "Healthcare_IHS",
+      "examples": [
+        {
+          "text": "Can I receive a refund for my immigration health surcharge?"
+        },
+        {
+          "text": "If my departure from the UK is earlier than the expiration date of my visa can my health surcharge be partially refunded?"
+        },
+        {
+          "text": "is dental and optical treatment covered by this?"
+        },
+        {
+          "text": "Can you explain me more about NHS care?"
+        },
+        {
+          "text": "in the cases of tier 4 dependants what would be the requirement?"
+        },
+        {
+          "text": "Do I need to pay an immigration health surcharge?"
+        },
+        {
+          "text": "What is the NHS?"
+        },
+        {
+          "text": "Do I need to apply to healthcare?"
+        },
+        {
+          "text": "What about tier 4 dependants?"
+        },
+        {
+          "text": "Is the healthcare included in my visa application?"
+        },
+        {
+          "text": "What about if I want to have private medical insurance in the UK?"
+        },
+        {
+          "text": "Do I need to pay independently for dental treatment in the UK?"
+        },
+        {
+          "text": "Is the Health surcharge included in my visa application payment?"
+        },
+        {
+          "text": "Is the IHS included in my visa application payment?"
+        },
+        {
+          "text": "Are prescriptions, dental treatments and eyes tests included in the IHS initial payment?"
+        },
+        {
+          "text": "Do I need to pay the health surcharge at the moment to submit my visa application?"
+        },
+        {
+          "text": "Do I have to pay for the medicine prescribed by the doctor?"
+        },
+        {
+          "text": "What would happen with the immigration health surcharge if my visa application is not successful?"
+        }
+      ],
+      "description": "UK Healthcare system for international students"
+    },
+    {
+      "intent": "COVID_Prevention",
+      "examples": [
+        {
+          "text": "precautionary measures"
+        },
+        {
+          "text": "Can I protect myself by drinking alcohol"
+        },
+        {
+          "text": "Does eating garlic help?"
+        },
+        {
+          "text": "Does the sun kill coronavirus?"
+        },
+        {
+          "text": "How can I avoid getting sick?"
+        },
+        {
+          "text": "how can I not get sick"
+        },
+        {
+          "text": "how can i prevent coronavirus"
+        },
+        {
+          "text": "What rules should I follow to prevent covid illness?"
+        },
+        {
+          "text": "What should I do to avoid getting sick?"
+        },
+        {
+          "text": "what should i do to contain the spread of the virus"
+        },
+        {
+          "text": "What should I do to stay safe?"
+        },
+        {
+          "text": "What will help me prevent covid infection?"
+        },
+        {
+          "text": "What’s the best way to prevent coronavirus?"
+        },
+        {
+          "text": "What is the risk of my child becoming sick with COVID-19?"
+        },
+        {
+          "text": "What is the most effective prevention?"
+        },
+        {
+          "text": "what is the best way to prevent coronavirus"
+        },
+        {
+          "text": "What is the best prevention?"
+        },
+        {
+          "text": "What is effective prevention against covid?"
+        },
+        {
+          "text": "what can i do to prevent getting coronavirus?"
+        },
+        {
+          "text": "what can i do to stay safe"
+        },
+        {
+          "text": "what can i do to prevent COIVD?"
+        },
+        {
+          "text": "What can I do to not get sick?"
+        },
+        {
+          "text": "what can I do to avoid getting sick?"
+        },
+        {
+          "text": "What are some good tips for prevention?"
+        },
+        {
+          "text": "Should I avoid people?"
+        },
+        {
+          "text": "prevent the spread of the virus"
+        },
+        {
+          "text": "How can I protect my family from the spread of coronavirus?"
+        },
+        {
+          "text": "How do I avoid Coronavirus"
+        },
+        {
+          "text": "How do I avoid covid-19?"
+        },
+        {
+          "text": "how do I ensure my family is safe?"
+        },
+        {
+          "text": "how do i prevent catching the disease"
+        },
+        {
+          "text": "How do I protect myself?"
+        },
+        {
+          "text": "how do I stay safe"
+        },
+        {
+          "text": "How do you protect yourself?"
+        },
+        {
+          "text": "How to avoid catching covid-19."
+        },
+        {
+          "text": "how to I prevent myself from getting sick?"
+        },
+        {
+          "text": "How to prevent covid infection?"
+        },
+        {
+          "text": "How to Prevent the Spread of the Virus"
+        },
+        {
+          "text": "Is it even possible to avoid the virus?"
+        }
+      ],
+      "description": "Ways to prevent Covid-19."
+    },
+    {
+      "intent": "COVID_Quarantine",
+      "examples": [
+        {
+          "text": "Are people in quarantine checked?"
+        },
+        {
+          "text": "How does Quarantine work?"
+        },
+        {
+          "text": "If infected, how long should individuals self-quarantine?"
+        },
+        {
+          "text": "if i have symptoms, how long should i quarantine for?"
+        },
+        {
+          "text": "A colleague is breaking quarantine what should I do?"
+        },
+        {
+          "text": "If I have Covid how long do I have to self isolate"
+        },
+        {
+          "text": "how long will we have to self quarantine?"
+        },
+        {
+          "text": "How long should you self-quarantine?"
+        },
+        {
+          "text": "How long should I quarantine?"
+        },
+        {
+          "text": "How long should I be in quarantine?"
+        },
+        {
+          "text": "How long do I have to be stuck at home?"
+        },
+        {
+          "text": "How long do I have to self isolate if I have tested positive?"
+        },
+        {
+          "text": "How long do I have to stay in quarantine?"
+        },
+        {
+          "text": "How long does it take to quarantine?"
+        },
+        {
+          "text": "Who is responsible for quarantined people?"
+        },
+        {
+          "text": "What should I do in quarantine?"
+        },
+        {
+          "text": "What should I do if I have been quarantined?"
+        },
+        {
+          "text": "What if I break quarantine?"
+        },
+        {
+          "text": "What exactly is home quarantine?"
+        },
+        {
+          "text": "What can I do when I'm in quarantine?"
+        },
+        {
+          "text": "Is anyone checking for compliance with those ordered to quarantine?"
+        }
+      ],
+      "description": "Quarantine requirements."
+    },
+    {
+      "intent": "Healthcare_Payment",
+      "examples": [
+        {
+          "text": "How much do I need to pay for the IHS?"
+        },
+        {
+          "text": "What should I look out for when paying the IHS for a visa application made in the UK?"
+        },
+        {
+          "text": "I have tried everything but still cannot pay the IHS fee/ the web-page does not take me to the next page."
+        },
+        {
+          "text": "I am making a visa application outside the UK with my dependants. Do we pay the IHS charge together or separately?"
+        },
+        {
+          "text": "I entered my credit card details for payment but then the web-page crashed. What do I do?"
+        },
+        {
+          "text": "What if I answered one of the questions on the IHS form incorrectly, but the amount of payment made is correct?"
+        },
+        {
+          "text": "What if I have underpaid, or the payment is showing as 0, incorrectly?"
+        },
+        {
+          "text": "Who does not need to pay the IHS charge?"
+        },
+        {
+          "text": "What if I have been charged twice, and overpaid?"
+        },
+        {
+          "text": "How do I pay the IHS fees?"
+        }
+      ],
+      "description": "Fees for students"
+    },
+    {
+      "intent": "COVID_Shopping_Groceries",
+      "examples": [
+        {
+          "text": "Is it okay to go grocery shopping?"
+        },
+        {
+          "text": "can i go to the store."
+        },
+        {
+          "text": "Can I go to the grocery store?"
+        },
+        {
+          "text": "can I go to the grocery store or will I catch corona"
+        },
+        {
+          "text": "can i go to the grocery store"
+        },
+        {
+          "text": "can I go to grocery stores"
+        },
+        {
+          "text": "are grocery stores still open"
+        },
+        {
+          "text": "Am I allowed to go to the grocery store?"
+        },
+        {
+          "text": "can I still go grocery shopping"
+        },
+        {
+          "text": "Can I still go to the grocery store?"
+        },
+        {
+          "text": "can we go to the store?"
+        },
+        {
+          "text": "How should I get groceries?"
+        },
+        {
+          "text": "I am in a high risk group. Can I buy my own food and medicine?"
+        },
+        {
+          "text": "I need medicine. Can I go to the store?"
+        },
+        {
+          "text": "is it ok for me to go to the grocery store"
+        },
+        {
+          "text": "Is it risky to buy food at the store?"
+        },
+        {
+          "text": "Is it safe to go out to buy food and staples?"
+        },
+        {
+          "text": "Is it safe to go to Costco?"
+        },
+        {
+          "text": "Is it safe to go to the grocery store?"
+        },
+        {
+          "text": "what grocery store in keller is open?"
+        }
+      ],
+      "description": "Status of grocery stores."
+    },
+    {
+      "intent": "COVID_Govt_Emergency",
+      "examples": [
+        {
+          "text": "Can the government close public places?"
+        },
+        {
+          "text": "A national emergency was declared in the United States. What does this mean?"
+        },
+        {
+          "text": "When will the national emergency end?"
+        },
+        {
+          "text": "What measures is the US taking against covid-19?"
+        },
+        {
+          "text": "What measurements is the government taking?"
+        },
+        {
+          "text": "What is the Government doing about Covid?"
+        },
+        {
+          "text": "How does the state of emergency affect me?"
+        },
+        {
+          "text": "How is the United States prepared for the spread of covid 19?"
+        },
+        {
+          "text": "How is the US government addressing the spread of covid-19?"
+        },
+        {
+          "text": "How long has the national emergency been in place?"
+        },
+        {
+          "text": "How long will the state of emergency last?"
+        },
+        {
+          "text": "Is the government legally allowed to close shops and restaurants?"
+        },
+        {
+          "text": "is the government ready for covid"
+        },
+        {
+          "text": "What is a national emergency?"
+        },
+        {
+          "text": "What has our government already done to reduce the risk of spreading the disease"
+        },
+        {
+          "text": "What does a state of emergency mean?"
+        },
+        {
+          "text": "What are the crisis measures currently in place?"
+        },
+        {
+          "text": "Tell me about the Coronavirus response"
+        },
+        {
+          "text": "Is there a nationwide curfew?"
+        },
+        {
+          "text": "Is the US well prepared for covid 19"
+        }
+      ],
+      "description": "Government readiness questions."
+    },
+    {
+      "intent": "COVID_Cleaning_Disinfecting",
+      "examples": [
+        {
+          "text": "is lysol enough to get rid of covid virus from countertops"
+        },
+        {
+          "text": "how do i get rid of germs at my home"
+        },
+        {
+          "text": "All the stores are out of disinfecting wipes, what do I do?"
+        },
+        {
+          "text": "Are there disinfectants available that can inactivate (kill) COVID-19?"
+        },
+        {
+          "text": "cleaning products"
+        },
+        {
+          "text": "disinfectant products"
+        },
+        {
+          "text": "Do I have to use bleach to kill coronavirus?"
+        },
+        {
+          "text": "Do I need lysol wipes?"
+        },
+        {
+          "text": "Do I need to disinfect my cell phone when I get home"
+        },
+        {
+          "text": "Does alcohol kill the coronavirus?"
+        },
+        {
+          "text": "How do I clean my home properly?"
+        },
+        {
+          "text": "What is the best way to clean?"
+        },
+        {
+          "text": "what cleaning regimen should I follow"
+        },
+        {
+          "text": "What cleaning methods kill the coronavirus?"
+        },
+        {
+          "text": "Should I spray myself or my kids with disinfectant?"
+        },
+        {
+          "text": "Which surfaces are most important to disinfect?"
+        },
+        {
+          "text": "Whats the difference between cleaning and disinfecting?"
+        },
+        {
+          "text": "What kind of disinfectant should I use?"
+        },
+        {
+          "text": "mopping products"
+        },
+        {
+          "text": "How should I wash my clothes if I may have been exposed to COVID-19?"
+        },
+        {
+          "text": "How often do I need to clean my home to prevent the spread of coronavirus?"
+        }
+      ],
+      "description": "How to clean and disinfect."
+    },
+    {
+      "intent": "COVID_Symptoms",
+      "examples": [
+        {
+          "text": "what are my symptoms"
+        },
+        {
+          "text": "what are symptoms of coronavirus"
+        },
+        {
+          "text": "What are symptoms?"
+        },
+        {
+          "text": "what are symtoms?"
+        },
+        {
+          "text": "what are the common symptoms"
+        },
+        {
+          "text": "what are the covid symtoms"
+        },
+        {
+          "text": "what are the COVID-19 symptoms?"
+        },
+        {
+          "text": "what are the symptoms"
+        },
+        {
+          "text": "what are the most common symptoms of COVID?"
+        },
+        {
+          "text": "what are the early symptoms of covid-19?"
+        },
+        {
+          "text": "What are the first symptoms for COVID?"
+        },
+        {
+          "text": "I have an irritating cough"
+        },
+        {
+          "text": "I have headache and sore throat, what should I do ?"
+        },
+        {
+          "text": "I have illness symptoms"
+        },
+        {
+          "text": "I have sore throat"
+        },
+        {
+          "text": "I have sore throat, is it coronavirus?"
+        },
+        {
+          "text": "I have traveled recently. What do I do?"
+        },
+        {
+          "text": "I think I feel symptoms of the disease"
+        },
+        {
+          "text": "I think I have covid 19"
+        },
+        {
+          "text": "I think I might have the virus."
+        },
+        {
+          "text": "I think i'm infected"
+        },
+        {
+          "text": "I'm afraid I have covid-19"
+        },
+        {
+          "text": "I'm having respiratory problems"
+        },
+        {
+          "text": "Do I have coronavirus?"
+        },
+        {
+          "text": "Will my head hurt if I have covid 19?"
+        },
+        {
+          "text": "Will I throw up if I have the virus?"
+        },
+        {
+          "text": "Will I poop a lot if I have the virus?"
+        },
+        {
+          "text": "What to do if I think I have covid?"
+        },
+        {
+          "text": "am i sick"
+        },
+        {
+          "text": "how do i know if im sick"
+        },
+        {
+          "text": "Hi what are the symptoms?"
+        },
+        {
+          "text": "do I have covid?"
+        },
+        {
+          "text": "how can one know if they have been infected?"
+        },
+        {
+          "text": "How do I know if I am infected with Covid"
+        },
+        {
+          "text": "how do i know if i got this"
+        },
+        {
+          "text": "how do i know if I got this thing"
+        },
+        {
+          "text": "how do i know if i have this issue"
+        },
+        {
+          "text": "how do I know if i have this thing"
+        },
+        {
+          "text": "How do I know if I'm sick with covid-19?"
+        },
+        {
+          "text": "what symptoms are typical with this disease"
+        },
+        {
+          "text": "what is the first symptom"
+        },
+        {
+          "text": "what are the types of symptoms"
+        },
+        {
+          "text": "What are the symptoms?"
+        },
+        {
+          "text": "What are the symptoms of the disease?"
+        },
+        {
+          "text": "What are the symptoms of covid?"
+        },
+        {
+          "text": "what are the symptoms of COVID-19"
+        },
+        {
+          "text": "what are the symptoms of coronavirus"
+        },
+        {
+          "text": "what are the symptoms I should look out for"
+        },
+        {
+          "text": "how to distinguish it from a common cold."
+        },
+        {
+          "text": "I can not breath very well"
+        },
+        {
+          "text": "I feel congested and have a fever"
+        },
+        {
+          "text": "I have a burning feeling in my chest"
+        },
+        {
+          "text": "I have a fever"
+        },
+        {
+          "text": "i have a sore throat"
+        },
+        {
+          "text": "I have a temperature and cough. Do I have the coronavirus?"
+        },
+        {
+          "text": "If I only have a sore throat is it Coronavirus?"
+        },
+        {
+          "text": "Is a headache a symptom of the coronavirus?"
+        },
+        {
+          "text": "Is rash a symptom of covid-19?"
+        },
+        {
+          "text": "my child has a high fever and is coughing. what should I do?"
+        },
+        {
+          "text": "My child is coughing. Should I be worried?"
+        },
+        {
+          "text": "my eyes are burning"
+        },
+        {
+          "text": "My girlfriend has symptoms of covid-19"
+        },
+        {
+          "text": "My husband has coronavirus symptoms"
+        },
+        {
+          "text": "my throat and head hurt"
+        },
+        {
+          "text": "my throat hurts and I have a headache as well"
+        },
+        {
+          "text": "rhinitis"
+        },
+        {
+          "text": "should I get tested if I have a cough?"
+        },
+        {
+          "text": "Symptoms"
+        },
+        {
+          "text": "tell me about the symptoms"
+        },
+        {
+          "text": "temperature"
+        },
+        {
+          "text": "Wet cough"
+        },
+        {
+          "text": "what are covid 19 symptoms"
+        },
+        {
+          "text": "what are symptoms"
+        }
+      ],
+      "description": "Symptoms of Covid-19."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You are very frustrating"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "COVID_Transmission",
+      "examples": [
+        {
+          "text": "When does a person become contagious?"
+        },
+        {
+          "text": "is covid19 contagious?"
+        },
+        {
+          "text": "is it contagious"
+        },
+        {
+          "text": "Is it possible to get infected from the infected person the next day?"
+        },
+        {
+          "text": "number of infected"
+        },
+        {
+          "text": "spreading covid to others"
+        },
+        {
+          "text": "does the virus spread thru surfaces"
+        },
+        {
+          "text": "how can covid be transmitted"
+        },
+        {
+          "text": "How can I get infected?"
+        },
+        {
+          "text": "How contagious is COVID-19?"
+        },
+        {
+          "text": "How do I catch the virus?"
+        },
+        {
+          "text": "how does coronavirus spread?"
+        },
+        {
+          "text": "how does covid spread"
+        },
+        {
+          "text": "How does covid spread?"
+        },
+        {
+          "text": "how does covid-19 spread"
+        },
+        {
+          "text": "how does covid-19 spread to others"
+        },
+        {
+          "text": "How does the infection spread"
+        },
+        {
+          "text": "how does the virus spread"
+        },
+        {
+          "text": "How is covid transmitted?"
+        },
+        {
+          "text": "How is COVID-19 spread?"
+        },
+        {
+          "text": "how many people are infected in the United States"
+        },
+        {
+          "text": "How would I catch it?"
+        },
+        {
+          "text": "How would I get covid?"
+        },
+        {
+          "text": "Is Coronavirus contagious?"
+        },
+        {
+          "text": "is covid transmissible from animals?"
+        },
+        {
+          "text": "is covid-19 contagious?"
+        }
+      ],
+      "description": "How Covid-19 is transmitted."
+    },
+    {
+      "intent": "COVID_Description",
+      "examples": [
+        {
+          "text": "what is the Corona Virus"
+        },
+        {
+          "text": "what is novel coronavirus?"
+        },
+        {
+          "text": "What is Corona virus?"
+        },
+        {
+          "text": "what is the coronavirus?"
+        },
+        {
+          "text": "I heard about covid what is it?"
+        },
+        {
+          "text": "How dangerous is this?"
+        },
+        {
+          "text": "Has the cause of COVID-19 been identified?"
+        },
+        {
+          "text": "covid what is it"
+        },
+        {
+          "text": "Where can I find more information about covid 19?"
+        },
+        {
+          "text": "Where can I learn more about covid?"
+        },
+        {
+          "text": "What is corona virus"
+        },
+        {
+          "text": "origin of coronavirus"
+        },
+        {
+          "text": "what is the corona virus?"
+        },
+        {
+          "text": "Is covid a disease?"
+        },
+        {
+          "text": "where did corona virus start from?"
+        },
+        {
+          "text": "where did covid come from?"
+        },
+        {
+          "text": "Where did the coronavirus come from?"
+        },
+        {
+          "text": "what is covid-19"
+        },
+        {
+          "text": "What is COVID-19?"
+        },
+        {
+          "text": "What is covid"
+        },
+        {
+          "text": "What does covid stand for?"
+        },
+        {
+          "text": "what is covid19"
+        },
+        {
+          "text": "What is COVID?"
+        }
+      ],
+      "description": "Describe Covid-19."
+    },
+    {
+      "intent": "COVID_School_shutdown",
+      "examples": [
+        {
+          "text": "when can kids return to school"
+        },
+        {
+          "text": "When can I return to school?"
+        },
+        {
+          "text": "what schools are closed"
+        },
+        {
+          "text": "What happens after the ordered three-week closure period ends?"
+        },
+        {
+          "text": "What does the ordered school closure mean for report cards?"
+        },
+        {
+          "text": "Should my child stay home from school?"
+        },
+        {
+          "text": "is the school closed"
+        },
+        {
+          "text": "Is my school closed?"
+        },
+        {
+          "text": "is my school closed"
+        },
+        {
+          "text": "Is my kids school closed?"
+        },
+        {
+          "text": "is my kids school closed"
+        },
+        {
+          "text": "Is HS 123 open?"
+        },
+        {
+          "text": "Is graduation delayed?"
+        },
+        {
+          "text": "I live in 78709. when will my kids high school reopen?"
+        },
+        {
+          "text": "How will the shutdown impact my child's attendance records?"
+        },
+        {
+          "text": "How can I get the latest news on my school closure?"
+        },
+        {
+          "text": "can my kids return to high school"
+        },
+        {
+          "text": "Can my child go to school?"
+        },
+        {
+          "text": "Are schools shut down?"
+        },
+        {
+          "text": "Are schools open?"
+        },
+        {
+          "text": "are schools open"
+        },
+        {
+          "text": "are schools in my area closed"
+        },
+        {
+          "text": "are schools closed?"
+        },
+        {
+          "text": "are schools closed in my area"
+        },
+        {
+          "text": "When can my kid go back to college"
+        },
+        {
+          "text": "when can my kid go back to school"
+        },
+        {
+          "text": "when can my kids back school"
+        },
+        {
+          "text": "when can my kids go back to college?"
+        },
+        {
+          "text": "when can my kids go back to high school in 78712"
+        },
+        {
+          "text": "when can my kids go back to school"
+        },
+        {
+          "text": "when do the children go back to school"
+        },
+        {
+          "text": "When does covid vacation end?"
+        },
+        {
+          "text": "When is school back in session?"
+        },
+        {
+          "text": "When will my good go back to school?"
+        },
+        {
+          "text": "When will my kids be back in school?"
+        },
+        {
+          "text": "when will my kids school reopen"
+        },
+        {
+          "text": "When will schools close?"
+        },
+        {
+          "text": "When will the schools open?"
+        },
+        {
+          "text": "where can my kids go back to school"
+        },
+        {
+          "text": "Which schools are closed?"
+        },
+        {
+          "text": "Will classes be moved to summer?"
+        },
+        {
+          "text": "Will graduations be pushed back?"
+        },
+        {
+          "text": "when can kid go back to school"
+        },
+        {
+          "text": "when can i send my kids back to school"
+        },
+        {
+          "text": "Will students still graduate this year?"
+        },
+        {
+          "text": "Will there be exams in the summer?"
+        },
+        {
+          "text": "Will there be school in the summer?"
+        },
+        {
+          "text": "are schools closed ?"
+        },
+        {
+          "text": "are schools closed"
+        },
+        {
+          "text": "are my schools closed?"
+        },
+        {
+          "text": "Are my schools closed"
+        },
+        {
+          "text": "Are my children's schools closed?"
+        },
+        {
+          "text": "ARE COLLEGES OPEN"
+        },
+        {
+          "text": "when can my high school senior go back to school"
+        },
+        {
+          "text": "when can my kid go back school"
+        },
+        {
+          "text": "when can my kid go back to high school"
+        }
+      ],
+      "description": "Information on school shutdowns."
+    },
+    {
+      "intent": "Accommodation",
+      "examples": [
+        {
+          "text": "I need information about student accommodation in London"
+        },
+        {
+          "text": "Accommodation for students in the UK"
+        },
+        {
+          "text": "Advice for students seeking accommodation"
+        },
+        {
+          "text": "Which are the best websites for student accommodation?"
+        },
+        {
+          "text": "Where can I find information for accommodation in the UK?"
+        },
+        {
+          "text": "I am looking for fully furnished apartments in the UK"
+        },
+        {
+          "text": "Accommodation guide"
+        }
+      ],
+      "description": "Accommodation for Students UK"
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "Student_Jobs",
+      "examples": [
+        {
+          "text": "The jobs requires a criminal record check?"
+        },
+        {
+          "text": "I am a student. Can I take up employment with the University?"
+        },
+        {
+          "text": "I live outside the UK. What will happen if I am invited for interview?"
+        },
+        {
+          "text": "How many hours can I work whilst studying in the UK?"
+        },
+        {
+          "text": "How can I find employment in the UK?"
+        },
+        {
+          "text": "Do I need to pay tax if I work?"
+        },
+        {
+          "text": "Where can I search for an internship?"
+        },
+        {
+          "text": "How do I know if I am qualified for a particular job?"
+        },
+        {
+          "text": "How to apply for an internship?"
+        },
+        {
+          "text": "I am looking for a summer job after my studies have finished, can you help me to find an opportunity?"
+        },
+        {
+          "text": "I am an international student looking to work in the United Kingdom, can you help me?"
+        },
+        {
+          "text": "I would like to send my CV in to see if there are any vacancies that fit my requirements, where do I send it to?"
+        },
+        {
+          "text": "I am looking for a summer business internship, can you help?"
+        },
+        {
+          "text": "When do summer internship applications open?"
+        },
+        {
+          "text": "How long do internships generally last for?"
+        },
+        {
+          "text": "I have registered for a Jobseeker Account but forgotten my login details. What shall I do?"
+        },
+        {
+          "text": "I applied for a job vacancy a while ago but have yet to hear whether I got accepted. What do I do next?"
+        },
+        {
+          "text": "I would like to apply for a job vacancy but do not have an up-to-date CV. Where do I start?"
+        },
+        {
+          "text": "Can I be paid on work placements?"
+        },
+        {
+          "text": "Can I work part-time during my studies?"
+        },
+        {
+          "text": "I am looking for a job in the UK but English is not my first language, can I still apply?"
+        },
+        {
+          "text": "What is the minimum legal age in the United Kingdom to get a job?"
+        },
+        {
+          "text": "I am looking for a part-time job, can you help me?"
+        },
+        {
+          "text": "I am looking for a job. Can you help me with that?"
+        },
+        {
+          "text": "What type of roles can employers offer?"
+        },
+        {
+          "text": "How are students selected for an internship opportunity?"
+        },
+        {
+          "text": "Will I get paid for an internship?"
+        },
+        {
+          "text": "When should I start looking for an internship?"
+        }
+      ],
+      "description": "Employment, internships, career service for students in the UK"
+    },
+    {
+      "intent": "COVID_Masks_Protection",
+      "examples": [
+        {
+          "text": "Will a respirator help me?"
+        },
+        {
+          "text": "When should I wear a respirator?"
+        },
+        {
+          "text": "When should I wear a mask?"
+        },
+        {
+          "text": "What is a cloth face covering and how does it help?"
+        },
+        {
+          "text": "should I wear a respirator?"
+        },
+        {
+          "text": "Should I wear a mask so I don't get infected?"
+        },
+        {
+          "text": "Should I wear a mask or a respirator?"
+        },
+        {
+          "text": "Should I have something on my face when I go out?"
+        },
+        {
+          "text": "Should I cover my face in public?"
+        },
+        {
+          "text": "Should I buy a respirator?"
+        },
+        {
+          "text": "I often travel by public transport. Should I wear a respirator?"
+        },
+        {
+          "text": "Does the government recommend wearing masks?"
+        },
+        {
+          "text": "Does the CDC say to cover your face?"
+        },
+        {
+          "text": "Do I have to wear a respirator?"
+        },
+        {
+          "text": "Do I have to wear a mask when I'm outside or taking a walk?"
+        },
+        {
+          "text": "Can I go out without a respirator?"
+        },
+        {
+          "text": "Can a mask help me?"
+        },
+        {
+          "text": "Am I supposed to wear a face covering?"
+        },
+        {
+          "text": "Do I need to wear a face mask?"
+        },
+        {
+          "text": "Does a mask or respirator help prevent covid infection?"
+        }
+      ],
+      "description": "Explaining how masks can protect."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Student_Jobs",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Part-time",
+          "synonyms": [
+            "partial",
+            "freelance",
+            "unpaid",
+            "Part time"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Full-time Graduate jobs",
+          "synonyms": [
+            "Full-time",
+            "Graduate jobs",
+            "jobs after graduation",
+            "Graduate scheme",
+            "Graduate opportunities"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Internships",
+          "synonyms": [
+            "internship",
+            "traineeships",
+            "placements",
+            "apprenticeships",
+            "trainees"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Covid19_Students",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Prospective",
+          "synonyms": [
+            "expected student",
+            "candidate student",
+            "applicant",
+            "student applicant",
+            "postulant",
+            "aspirant",
+            "candidate",
+            "petitioner",
+            "applier",
+            "solicitor"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Current",
+          "synonyms": [
+            "current student",
+            "enrolled student",
+            "Bachelors student",
+            "Masters student",
+            "postgraduate current student",
+            "undergraduate current  student"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Member",
+          "synonyms": [
+            "staff members",
+            "staff person",
+            "employee is",
+            "official working",
+            "official is",
+            "staff are",
+            "administrative officer",
+            "senior official",
+            "administrator",
+            "manager",
+            "admin",
+            "director",
+            "supervisor",
+            "advisor",
+            "coordinator",
+            "consultant",
+            "adviser",
+            "officer",
+            "advisors",
+            "supervisors",
+            "counselor",
+            "coordinators",
+            "chief",
+            "advisory",
+            "counsellor",
+            "specialist",
+            "chairman",
+            "facilitator",
+            "therapist",
+            "mentor",
+            "senior"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Types_Visa",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Tier 4 Visa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Child student visa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Short-term",
+          "synonyms": [
+            "shortterm",
+            "temporary",
+            "shortsighted",
+            "brief",
+            "short"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, <? input.text ?>! It's lovely to meet you. How can I help you today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1593816283112",
+      "context": {
+        "username": "<? input.text ?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_8_1595759285007"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tier 4 (General) UK Student Visa\nThe majority of international students from outside the EU will need a Tier 4 (General) student visa to study in the UK. You can apply for this if you are 16 or over and:\n1.- You have been offered a place on a course.\n2.- You can understand English, including reading, writing and speaking.\n3.- You can prove you have enough money to pay your course fees and support yourself for the duration of your studies."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1593367145328",
+      "conditions": "@Types_Visa:(Tier 4 Visa)",
+      "dialog_node": "node_9_1593813996558",
+      "previous_sibling": "node_6_1593813534668"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can apply for the Tier 4 (Child) student visa if you’re aged between 4 and 17 and you want to study at an independent school in the UK.\n\nYou must also:\n\nhave a place on a course\nhave the consent of your parent or guardian\nhave enough money to cover your course fees and living costs\nbe from a country that’s not in the European Economic Area (EEA) or Switzerland\nmeet the eligibility requirements"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1593367145328",
+      "conditions": "@Types_Visa:(Child student visa)",
+      "dialog_node": "node_10_1593812979630",
+      "previous_sibling": "node_9_1593813996558"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If you are studying a short course in the UK you can apply for a short-term study visa. This visa will allow you to study in the UK for 6 months, or 11 months if you are studying an English language course."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1593367145328",
+      "conditions": "@Types_Visa:Short-term",
+      "dialog_node": "node_6_1593813534668"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Can you reword your statement? I'm not understanding. For how many students would you like to book?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1595781822541",
+      "event_name": "nomatch",
+      "dialog_node": "handler_6_1595843089325",
+      "previous_sibling": "handler_4_1595781822552"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "For how many students would you like to book?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1595781822541",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1595781822552",
+      "previous_sibling": "handler_2_1595781822552"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1595781822541",
+      "context": {
+        "guests": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_2_1595781822552"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, Good day to you!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1594998760019",
+      "context": {
+        "full_name": {
+          "last": "Doe",
+          "first": "John"
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "response_8_1595758554255",
+      "previous_sibling": "response_2_1595781144855"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good day to you, $username!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1594998760019",
+      "conditions": "$username",
+      "dialog_node": "response_2_1595781144855"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK. I am providing you information about available accommodation for $guests on $date at $time."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1595781613922",
+      "dialog_node": "response_1_1595858686722",
+      "previous_sibling": "response_2_1595858711109"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1595781613922",
+      "variable": "$date",
+      "dialog_node": "slot_10_1595781694978",
+      "previous_sibling": "response_2_1595859585291"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1595781613922",
+      "dialog_node": "response_2_1595859585291",
+      "previous_sibling": "response_1_1595858686722"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1595781613922",
+      "variable": "$guests",
+      "dialog_node": "slot_10_1595781822541",
+      "previous_sibling": "slot_4_1595781740754"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I look forward to helping you with your next reservation. Have a good day."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1595781613922",
+      "conditions": "has_skipped_slots",
+      "dialog_node": "response_2_1595858711109",
+      "previous_sibling": "handler_4_1595858530978"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1595781613922",
+      "variable": "$time",
+      "dialog_node": "slot_4_1595781740754",
+      "previous_sibling": "slot_10_1595781694978"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Ok, we'll stop there. No reservation will be made."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1595781613922",
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "conditions": "#exit",
+      "event_name": "generic",
+      "dialog_node": "handler_4_1595858530978"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What time do you want the reservation to be made for? (please specify AM/PM)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1595781740754",
+      "context": {
+        "time": "<? @sys-time.reformatDateTime('h:mm a') ?>"
+      },
+      "event_name": "focus",
+      "dialog_node": "handler_9_1595781740764",
+      "previous_sibling": "handler_2_1595781740764"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Can you reword your statement? I'm not understanding. What time do you want the reservation to be made for?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1595781740754",
+      "event_name": "nomatch",
+      "dialog_node": "handler_6_1595843077828",
+      "previous_sibling": "handler_9_1595781740764"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1595781740754",
+      "context": {
+        "time": "<? @sys-time.reformatDateTime('h:mm a') ?>"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_2_1595781740764"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "After finishing your Masters, you usually have four months to start looking for employment. Once you have a suitable job offer, you can apply for a Tier 2 (general) visa that entitles you to live and work in the UK for up to five years. \nPlease check also the following information:\nInternational students who start their studies in the UK in 2020 or after will benefit from the new post-study work visa (PSW) for graduates. This usually means a work and residence permit of 24 months (2 years) after graduation. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1595778720136",
+      "conditions": "@Student_Jobs:(Full-time Graduate jobs)",
+      "dialog_node": "node_4_1595778945444",
+      "previous_sibling": "node_10_1595778803515"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Students can work if they study at a university or college that is listed on both the official UKVI sponsor list and the list of UK government recognised bodies. Working while studying can be financially and professionally useful for students, but creating a balance between earning and learning simultaneously is difficult. To get the best from postgraduate study requires resilience, time management, enthusiasm for the course and dedication to complete the course with good academic grades"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1595778720136",
+      "conditions": "@Student_Jobs:Part-time",
+      "dialog_node": "node_10_1595778803515"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "After finishing your Masters, you usually have four months to start looking for employment. Once you have a suitable job offer, you can apply for a Tier 2 (general) visa that entitles you to live and work in the UK for up to five years. \n*From next year all international graduates could qualify for a two-year period to work in the UK, increasing your chances of finding long-term employment after studying!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1595685977940",
+      "conditions": "@Student_Jobs:(Full-time Graduate jobs)",
+      "dialog_node": "node_1_1595779848027",
+      "previous_sibling": "node_4_1595779383229"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "There are thousands of part time jobs available in the UK to help fund your studies and social life. International students who are studying in the UK on a Tier 4 student visa are usually allowed to work for up to 20 hours per week during term time and full time during the holidays."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1595685977940",
+      "conditions": "@Student_Jobs:Part-time",
+      "dialog_node": "node_4_1595779383229",
+      "previous_sibling": "node_3_1595778720136"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "An internship for international students in the UK can be a very effective way to get a full-time job in your preferred industry sector once you have graduated from University. An internship will give you valuable experience and give you a competitive advantage when applying for graduate jobs. It will also give you a better understanding of the industry you are interested in and could be a really helpful way to determine if you actually enjoy working in that area and can help you make decisions about your career."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1595685977940",
+      "conditions": "@Student_Jobs:Internships",
+      "dialog_node": "node_3_1595778720136"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We have been putting in place many new measures to ensure we have an environment that puts student and staff wellbeing at its heart. Measures include:                                                                             - all teaching and social spaces will be COVID-secure, in line with the latest government guidelines on social distancing\n- enhanced cleaning across campus, including teaching spaces, places of worship, social areas, the Library, diners and in student accommodation (such as kitchens and other communal areas)\n- reception desks and student-facing contact points, including counters in shops and catering facilities, will have screens and sanitation points installed, and there will be an enhanced provision of hand sanitisers across campus\n- social distancing measures in place in our Library and revised procedures, including returned books being quarantined for 72 hours before being shelved\n- new access and one-way pedestrian routes introduced around the University, designed to ensure safe passage around all buildings when the campus reopens\n- instructions for staff and students will be made available later in the summer, outlining the safe use of teaching spaces including entering, occupying and leaving classrooms. We are also developing a policy on the use of face coverings."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1595689531169",
+      "conditions": "@Covid19_Students:Current",
+      "dialog_node": "node_8_1595693558012",
+      "previous_sibling": "node_6_1595693434901"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "At the moment there are some international students who will be required to quarantine for 14 days on arrival in the UK. This may not be the case by September, but in case this remains in place, our accommodation facilities will be open from 29 August for those who wish to arrive ahead of Welcome Week.  The University will not charge any rent for the two weeks quarantine period to students staying in University-owned accommodation if they are required to quarantine, we’ll be following government recommendations to ensure our students are safe and can begin their studies with us in a responsible way. If you are required to quarantine, we will place you in a designated quarantine ﬂat before relocating you to your assigned accommodation. These ﬂats will have full services provided, including food delivery on demand.If you are required to quarantine, but cannot arrive early, we will still aim to identify designated flats before relocating you after the required period.\n\nIf you are required to quarantine and are living in Roehampton students accommodation, you will be able to do so rent-free."
+              },
+              {
+                "text": "We fully intend to be able to welcome all students joining us on our campus at the start of term on Monday 21 September, or earlier during arrivals week. However, should students need to, we can allow enrolment on most of our courses as late as Monday 19 October 2020. We will put in place additional academic support for those enrolling late. We intend to be as flexible to your needs as we can be, including supporting visa applications until the latest viable date and allowing for late enrolments, whilst ensuring you are provided with additional support where required at the start of your studies if this is the case. \nInduction week runs from 21 September – 2 October, and for the majority of activities will be possible to complete online. However, some aspects of induction, such as visa checks will need to be carried out face-to-face. These interactions will be safely conducted following recommended guidelines. First scheduled teaching for undergraduates and postgraduate taught will be on or around the 5 October.\n"
+              },
+              {
+                "text": "This Autumn, we plan to provide smaller group teaching on-campus, with larger group teaching online. We intend to be as flexible to your needs as we can be and we will therefore also provide the option of studying entirely online for the first term if you would like to, where this is possible. This would continue if there is a second coronavirus situation after you arrive in the UK and the Government permits online study for international students."
+              },
+              {
+                "text": "If you are unable to secure your visa to come to the UK in time to join your course we will be as flexible as possible. We have made arrangements to support students arriving late and will provide the option of studying online on most of our courses, should students experience delays in joining us. If you cannot come to the UK before this date, you will have the option to study entirely online for the first term on most of our courses. We will then help you to make a visa application to start studying with us from the Spring Term."
+              },
+              {
+                "text": "We are committed to working with every student on the options to continue studying with us. We will be as flexible as possible, including supporting visa applications until the latest viable date whilst ensuring students are provided with additional support where required at the start of their studies. Enrolment on Autumn courses will need to have happened by 19 October.\n\nAlso if you cannot come to the UK before our start of term, you will have the option on most of our courses to study entirely online for the first term, wherever you are in the world.\n"
+              },
+              {
+                "text": "We understand that these are unprecedented times and we will consider every case on an individual basis. If you cannot travel due to restrictions imposed by the authorities, you will have the option of a refund or you will be able to defer to the next available intake."
+              },
+              {
+                "text": "If you accept an offer of a place on a programme starting in September 2020 and later wish to change to a January start, contact us to discuss this further."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1595689531169",
+      "conditions": "@Covid19_Students:Prospective",
+      "dialog_node": "node_4_1595693894812",
+      "previous_sibling": "node_8_1595693558012"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The latest guidance for staff on returning to campus is available on the portal. This information includes return to campus documents for managers. \nAll staff are asked to monitor themselves for covid-19 symptoms before travelling to campus. More information about this can be found on the portal. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1595689531169",
+      "conditions": "@Covid19_Students:Member",
+      "dialog_node": "node_6_1595693434901"
+    },
+    {
+      "type": "frame",
+      "parent": "node_10_1595860457528",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "($date == null && $time == null)",
+      "dialog_node": "node_8_1595781613922"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What day would you like to come in?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1595781694978",
+      "context": {
+        "date": "<? @sys-date.reformatDateTime('EEEE, MMMM d') ?>"
+      },
+      "event_name": "focus",
+      "dialog_node": "handler_9_1595781694998",
+      "previous_sibling": "handler_5_1595781694998"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Can you reword your statement? I'm not understanding. What day would you like to come in?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1595781694978",
+      "event_name": "nomatch",
+      "dialog_node": "handler_6_1595842891322",
+      "previous_sibling": "handler_9_1595781694998"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1595781694978",
+      "context": {
+        "date": "<? @sys-date.reformatDateTime('EEEE, MMMM d') ?>"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_5_1595781694998"
+    },
+    {
+      "type": "standard",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1593816283112"
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_1_1594998760019",
+      "previous_sibling": "node_1_1593816283112"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If you are an international student coming to the UK and want to open a bank account here, you need the following documentation: \n1.- Current Passport  \n2.- Valid visa (for those from outside the European Union)              \n3.- Home bank statement from the past three months\n4.- Proof of address in the UK or abroad (check with your bank)\n5.- Student ID or acceptance letter from your university.\n\nIn some cases, you will be able to open a UK bank account from overseas. So, if you are still in your home country while reading this and you need a a bank account quickly, check UK banks that will let you start setting up a bank account before you arrive!."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Bank_Account",
+      "dialog_node": "node_5_1594930839693",
+      "previous_sibling": "node_5_1593367145328"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're Welcome!. I am happy to help:)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_8_1595844424073",
+      "previous_sibling": "node_1_1594998760019"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_7_1593207494472",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The current fees for students (and their dependants) is £300 per person per twelve months of leave granted (or £150 per 6 months of leave).\nIn March 2020, the UK government announced in its 'Budget 2020' (para 2.4) that this will increase from £300 to £470 from October 2020.\nIf unsure, use the GOV tool to find out how much you need to pay:\nhttps://www.immigration-health-surcharge.service.gov.uk/checker/Type"
+              },
+              {
+                "text": "Example 1:\nAn undergraduate student applying for Tier 4 leave from outside the UK for a three year course has a CAS start date of 23/09/2019 and a course end date of 27/06/2022. They should be granted a total of 4 additional months after the 'course end date' on the CAS (i.e., visa expiry date will be 27/10/2022).\nTier 4 visa length from course start date to visa expiry date = 38 months (3 years + 2 months) = IHS payment £1,050.\n\nExample 2:\nA Masters student applying for Tier 4 leave from outside the UK with their spouse as a dependant for a 12 months course with a CAS start date of 01/10/2019 and end date of 30/09/2020. They should be granted a total of 6 additional months after the 'course end date' on the CAS (i.e., visa expiry date will be 30/03/2021. This is because they are eligible for the Tier 4 Pilot Scheme).\nLeave granted = 18 months (1 year & 6 months) x 2 applicants (student and dependant) = IHS payment £900"
+              },
+              {
+                "text": "\nYou won't need to pay the IHS if you're applying for a visitor visa or for a visa (including Tier 4 visa) for 6 months or less (from outside the UK). For details of exemptions please visit the gov.uk website. \nhttps://www.gov.uk/healthcare-immigration-application\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Healthcare_Payment",
+      "dialog_node": "node_8_1595164200163",
+      "previous_sibling": "node_9_1595088073916"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am a virtual assistant that is designed to answer your questions \nrelated to your studies in the UK. What should I call you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "#General_About_You",
+      "dialog_node": "node_1_1593816283112",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "There are numerous factors to consider when deciding which student accommodation is right for you and usually it can be better to start your accommodation application once you've accepted an offer of a place on a course, but check with your university for details of the process. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Accommodation",
+      "dialog_node": "node_6_1595525593998",
+      "previous_sibling": "node_8_1595164200163"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "So you have decided to get some extra cash. Good on you!.\n1.- I would first recommend you to use the University job shop and try to keep yourself informed about the latest vacancies. If you are looking for part-time work, have a look on campus!\n2.- Meet people!: local pubs, restaurants and shops could be a good alternative to ask if there are any vacancies.\n3.- Look for Christmas jobs well in advance - retail and hospitality sectors\n4.- Create alternative methods!: try tutoring, market research, sell your design work, freelance and so on."
+              },
+              {
+                "text": "Types of student jobs: As a student, you have a number of job options available for you to explore, which include:                                                                                                                                                      Retail   \nHospitality\nSeasonal jobs\nAlternatively, it may be possible to find an internship with a company that is relevant to the subject you are studying. In certain circumstances, interns who carry out work for an employer may be entitled to the National Minimum Wage.\n"
+              },
+              {
+                "text": "Are you interested in Part-time work? Let's check your rights!\n\n1.- A student working part-time has the same rights as a full-time employee\n2.- The UK has a National Minimum Wage that all employers must abide by\n3.- The NMW for a student aged between 18 and 20 is £6.45 per hour; for those 21 to 24, the NMW is £8.20 per hour; for 25 and over it's £8.72\n4.- Find more about working part-time and your employment rights at from gov.uk\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "What kind of student job are you looking for?",
+            "options": [
+              {
+                "label": "Part-time",
+                "value": {
+                  "input": {
+                    "text": "Part-time jobs"
+                  }
+                }
+              },
+              {
+                "label": "Internships",
+                "value": {
+                  "input": {
+                    "text": "Internships opportunities"
+                  }
+                }
+              },
+              {
+                "label": "Full-time Graduate jobs",
+                "value": {
+                  "input": {
+                    "text": "Full-time Graduates"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Student_Jobs",
+      "dialog_node": "node_3_1595685977940",
+      "previous_sibling": "node_6_1595525593998"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If you're a resident or visitor travelling to the UK, you must provide your journey and contact details. You'll also need to self-isolate in the place you're staying for the first 14 days after you arrive, unless you're travelling from certain countries or territories. \nPeople who do not self-isolate can be fined up to £1,000 in England, Wales and Northern Ireland and those returning to Scotland could be fined £480, with fines up to £5,000 for persistent offenders."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#COVID_Quarantine",
+      "dialog_node": "node_4_1595774846823",
+      "previous_sibling": "node_7_1595773445777"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "date": null,
+        "time": null,
+        "guests": null
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#reservation",
+      "dialog_node": "node_10_1595860457528",
+      "previous_sibling": "node_8_1595844424073"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In September, our aim is that our spacious 54-acre parkland campus will be open for students and staff to enjoy safely. This includes our teaching facilities, study areas, library, social spaces, accommodation and other amenities, all with appropriate physical distancing in place. The measures we will have in place to ensure and protect the health and wellbeing of our community are beginning to be deployed and will be ready fully by September. This autumn, we plan to provide blended learning, combining on-campus teaching, with larger lectures online. We intend to be as flexible to your needs as we can be."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Are you a current student, prospective student or a member of staff?",
+            "options": [
+              {
+                "label": "Current Student ",
+                "value": {
+                  "input": {
+                    "text": "I am a current student "
+                  }
+                }
+              },
+              {
+                "label": "Prospective Student ",
+                "value": {
+                  "input": {
+                    "text": "I am a prospective student "
+                  }
+                }
+              },
+              {
+                "label": "Member of staff",
+                "value": {
+                  "input": {
+                    "text": "I am a member of staff"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "#Covid19_Students",
+      "dialog_node": "node_10_1595689531169",
+      "previous_sibling": "node_3_1595685977940"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Those students applying for a Tier 4 visa and coming to the UK for 6 months or longer will be required to pay an immigration health surcharge IHS as part of their visa application fee. This payment is not optional even if you intend to purchase private medical insurance for your time in the UK. \n"
+              },
+              {
+                "text": "Paying the IHS means that you will be entitled to use the NHS (National Health Service) in the UK. In addition to emergency health care, you will not be charged for hospital treatment or further medical treatment. Please note that you will still need to pay for certain types of services (e.g. prescriptions, dental treatments and eye tests.)"
+              },
+              {
+                "text": "When making an immigration application online, the payment of the IHS is part of the application process. The form will automatically calculate the correct IHS payment depending on the information entered in the visa details section.\nYou will need to have access to a credit or debit card which can be used to pay the health charge (and the visa application fee) online. There is no requirement to hold the IHS fee for 28 days or to provide evidence of sufficient funds to cover the health fee in the visa application. However, students using the same account to pay the visa application fee and health charge as they are using to evidence maintenance, should ensure that there is enough money available to cover everything."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Healthcare_IHS",
+      "dialog_node": "node_9_1595088073916",
+      "previous_sibling": "node_5_1594930839693"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "According to the Department of Health and Social Care, the number of confirmed UK cases has hit 297,914, while the total number of deaths is 45,677."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#COVID_Case_Count",
+      "dialog_node": "node_7_1595773445777",
+      "previous_sibling": "node_10_1595689531169"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The following types of UK student visa are available:\n\n- Tier 4 General Student Visa for courses lasting for longer than 6 months.\n- Tier 4 Child student visa if you have an unconditional offer of a place on a course with a licensed Tier 4 sponsor and enough money to support yourself and pay for your course. \n- Short-term study visa for a short-course no longer than 6 months."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "What type of visa are you applying for?",
+            "options": [
+              {
+                "label": "Short-term ",
+                "value": {
+                  "input": {
+                    "text": "Short-term student visa"
+                  }
+                }
+              },
+              {
+                "label": "General student visa Tier4",
+                "value": {
+                  "input": {
+                    "text": "Tier 4 General student visa"
+                  }
+                }
+              },
+              {
+                "label": "Child student visa",
+                "value": {
+                  "input": {
+                    "text": "Tier 4 Child student visa"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Types_Visa",
+      "dialog_node": "node_5_1593367145328",
+      "previous_sibling": "node_1_1593276867574"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK. See you later."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Ending",
+      "dialog_node": "node_7_1593207494472",
+      "previous_sibling": "node_4_1595774846823"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You may need a visa to come to the UK to visit, study or work. Please check the requirements on the government website or ask me for the different types of visas available for you. \nhttps://www.gov.uk/check-uk-visa "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Do_I_need_a_Visa",
+      "dialog_node": "node_1_1593276867574",
+      "previous_sibling": "node_10_1595860457528"
+    },
+    {
+      "type": "standard",
+      "title": " Welcome to the Watson Assistant tutorial!",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. I am Knowledge Management KM Virtual Assistant trained to quickly solve issues faced by international students when coming to the UK. I can help you in the following tasks:\n- Checking whether you need a UK visa or not\n- Finding the right study visa for you\n- Providing you key Information about Healthcare, Accommodation, Bank Accounts and Student Jobs \n- Keeping you informed about Covid-19 situation for current and prospective students.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "My first skill",
+  "language": "en",
+  "description": ""
+}
