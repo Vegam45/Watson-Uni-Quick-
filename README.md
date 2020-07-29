@@ -24,6 +24,7 @@ $ npm install
 $ npm start
 ```
 
+<img width="1280" alt="FAtom1 2" src="https://user-images.githubusercontent.com/68426633/88848408-5ceae980-d1e0-11ea-91fb-bcf8b19335fc.png">
 
 <img width="1280" alt="WA 1" src="https://user-images.githubusercontent.com/68426633/88846098-07f9a400-d1dd-11ea-88f4-53cb46128517.png">
 
