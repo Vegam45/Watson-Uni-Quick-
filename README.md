@@ -4,7 +4,7 @@ Uni-QUICK is a Watson virtual assistant designed to improve customer satisfactio
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Roadmap](#roadmap)
+* [Solution Roadmap](#roadmap)
 * [Next Steps](#next-steps)
 
 ## General info
