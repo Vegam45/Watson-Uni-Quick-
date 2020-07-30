@@ -4,7 +4,7 @@ Smart AI differentiate Uni-QUICK from others Q&A systems, facilitating the manag
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Solution Roadmap](#roadmap)
+* [Solution](#roadmap)
 * [Next Steps](#next-steps)
 
 ## General info
@@ -25,10 +25,8 @@ IBM cloud services/systems used in the project:
 * Watson Studio 
 * Watson Machine Learning 
 * Cloud Watson 
-	
-## Solution Roadmap
-*
-*
+
+## Solution
 
 
 
@@ -40,7 +38,7 @@ To successfully mitigate difficulties associated to language barriers, Uni-QUICK
   Categpory 1: Restaurants and coffees / Sub-category 1: Discount and coupons for students   
   Category 2: Social Life on Campus and external, Transportation Information (University location)
 
- 
+
 
 To run this project, install it locally using npm:
 
@@ -49,6 +47,7 @@ $ cd ../lorem
 $ npm install
 $ npm start
 ```
+<img width="1280" alt="FAtom1 2" src="https://user-images.githubusercontent.com/68426633/88848408-5ceae980-d1e0-11ea-91fb-bcf8b19335fc.png">
 
 <img width="1280" alt="Screenshot 2020-07-29 at 22 25 19 2" src="https://user-images.githubusercontent.com/68426633/88855489-dbe51f80-d1ea-11ea-99df-b0ec75d5b6bf.png">
 
