@@ -19,7 +19,7 @@ A sample of custom intents topics:
 * Student Jobs: Internships, Part-time, Full-time (prospective international, home and current students)
 * Covid-19 information sample for prospective, current students, University Staff members: new enrollment dates, new rules on campus, quarantine for international students, others. 
 
-## My First Assistant Check-list 
+## My First Assistant Check list 
 
 * Complex dialog
 * Custom Intents Definition
