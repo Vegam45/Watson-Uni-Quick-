@@ -8,7 +8,15 @@ Smart AI differentiate Uni-QUICK from others Q&A systems, facilitating the manag
 * [Next Steps](#next-steps)
 
 ## General info
-Uni-QUICK is a Watson virtual assistant designed to improve customer satisfaction providing answers as quickly as possible through the most preferred channels and platforms. Smart AI differentiate Uni-QUICK from others Q&A systems, facilitating the management of the information to deliver relevant answers easily and provide knowledge effectively. An essential tool for University students and staff members.  A robust information system in unprecedented times.  
+In these unprecedented times information systems are essential and that is why Uni-QUICK has been designed to incorporate efficiently the most relevant topics - classified in more than 10 different categories, in only one site, to facilitate its management; helping thus users find effective answers to their queries to mitigate as much as possible the transition process to a different country especially in a period of crisis or change. Thus, remote education guidelines and information about new university-facilities are for instance perfectly managed from the virtual assistant and instantly updated in all its different categories and sub-categories when required. Information about quarantine - for the moment still valid for international students coming to the UK, information about flexible new enrolment dates due to Covid-19 and all the latest updates regarding health and wellbeing in general for prospective and current students, can be easily incorporated and efficiently provided by Uni-QUICK. 
+
+A sample of intents created 
+* Visa types
+* Healthcare NHS
+* Student Accommodation Management
+* Bank Accounts UK
+* Student Jobs: Internships, Part-time, Full-time
+* Covid-19 information for prospective and current students 
 	
 ## Technologies
 IBM cloud services/systems used in the project:
@@ -18,21 +26,21 @@ IBM cloud services/systems used in the project:
 * Watson Machine Learning 
 * Cloud Watson 
 	
-## More about Uni-QUICK - Roadmap
+## Solution Roadmap
+*
+*
 
 
 
+## Next Steps
+To successfully mitigate difficulties associated to language barriers, Uni-QUICK will incorporate other Watson features such as speech to text and translation services as a part of the solution.
 
+* Speech to text and translation services to improve customer satisfaction
+* Creation of new intents in the context of Covid-19 social distancing UK
+  Categpory 1: Restaurants and coffees / Sub-category 1: Discount and coupons for students   
+  Category 2: Social Life on Campus and external, Transportation Information (University location)
 
-
-
-
-## Uni-QUICK Next Steps
-
-1.- The virtual assistant APP with new added Watson features!: 
-
-* Speech to text and translation services to improve customer satisfaction\\ 
-
+ 
 
 To run this project, install it locally using npm:
 
