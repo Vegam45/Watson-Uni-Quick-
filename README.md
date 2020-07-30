@@ -3,7 +3,7 @@ Smart AI differentiate Uni-QUICK from others Q&A systems, facilitating the manag
 
 ## Table of contents
 * [General info](#general-info)
-* [My First Assistant Check list](#my-first-assistant-checklist)
+* [My First Assistant Check list](#my-first-assistant-check-list)
 * [Technologies](#technologies)
 * [Solution Roadmap](#solution-roadmap)
 * [Next Steps](#next-steps)
