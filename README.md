@@ -66,7 +66,6 @@ $ npm start
 
 <img width="1280" alt="Screenshot 2020-07-29 at 22 25 19 2" src="https://user-images.githubusercontent.com/68426633/88855489-dbe51f80-d1ea-11ea-99df-b0ec75d5b6bf.png">
 
-<img width="1280" alt="FAtom1 2" src="https://user-images.githubusercontent.com/68426633/88848408-5ceae980-d1e0-11ea-91fb-bcf8b19335fc.png">
 
 <img width="1280" alt="WA 1" src="https://user-images.githubusercontent.com/68426633/88846098-07f9a400-d1dd-11ea-88f4-53cb46128517.png">
 
