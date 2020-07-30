@@ -3,20 +3,31 @@ Smart AI differentiate Uni-QUICK from others Q&A systems, facilitating the manag
 
 ## Table of contents
 * [General info](#general-info)
+* [My First Assistant Check-list](#My-First-Assistant-Check-list)
 * [Technologies](#technologies)
 * [Solution Roadmap](#solution-roadmap)
 * [Next Steps](#next-steps)
 
 ## General info
-In these unprecedented times information systems are essential and that is why Uni-QUICK has been designed to incorporate efficiently the most relevant topics - classified in more than 10 different categories, in only one site, to facilitate its management; helping thus users find effective answers to their queries to mitigate as much as possible the transition process to a different country especially in a period of crisis or change. Thus, remote education guidelines and information about new university-facilities are for instance perfectly managed from the virtual assistant and instantly updated in all its different categories and sub-categories when required. Information about quarantine - for the moment still valid for international students coming to the UK, information about flexible new enrolment dates due to Covid-19 and all the latest updates regarding health and wellbeing in general for prospective and current students, can be easily incorporated and efficiently provided by Uni-QUICK. 
+In these challenging times information systems are essential and that is why Uni-QUICK has been designed to incorporate efficiently the most relevant topics - classified in more than 10 different categories, everything in only one site!. The virtual modality is perfect to avoid other inefficient student-facing services, helping users find effective answers to their queries in a safer manner and mitigate as much as possible the transition process to a different country especially in a period of crisis or change. Thus, remote education guidelines and information about new university-facilities are for instance perfectly managed from the virtual assistant and instantly updated in all its different categories and sub-categories when required. Information about quarantine - for the moment still valid for international students coming to the UK, information about flexible new enrolment dates due to Covid-19 and all the latest updates regarding health and wellbeing in general for prospective and current students, can be easily incorporated and efficiently provided by Uni-QUICK!. 
 
-A sample of intents created 
-* Visa types
-* Healthcare NHS
-* Student Accommodation Management
-* Bank Accounts UK
-* Student Jobs: Internships, Part-time, Full-time
-* Covid-19 information for prospective and current students 
+A sample of custom intents topics: 
+* Visa types: Tier 4, Short-term, Child student visa 
+* Healthcare NHS, IHS
+* Student Accommodation Management: On-campus and external, reservation system
+* Bank Accounts UK: Documents required for international students comig to the UK
+* Student Jobs: Internships, Part-time, Full-time (prospective international, home and current students)
+* Covid-19 information sample for prospective, current students, University Staff members: new enrollment dates, new rules on campus, quarantine for international students, others. 
+
+## My First Assistant Check-list 
+
+* Complex dialog
+* Custom Intents Definition
+* Dialog nodes to handle intents
+* Entities to make responses more specific
+* Pattern entity - Dialog incorporation to find patterns in user inputs
+* Context variables 
+* Slots 
 	
 ## Technologies
 IBM cloud services/systems used in the project:
