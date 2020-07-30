@@ -3,7 +3,7 @@ Smart AI differentiate Uni-QUICK from others Q&A systems, facilitating the manag
 
 ## Table of contents
 * [General info](#general-info)
-* [My First Assistant Check-list](#My-First-Assistant-Check-list)
+* [My First Assistant Check list](#my-first-assistant-checklist)
 * [Technologies](#technologies)
 * [Solution Roadmap](#solution-roadmap)
 * [Next Steps](#next-steps)
@@ -38,6 +38,9 @@ IBM cloud services/systems used in the project:
 * Cloud Watson 
 
 ## Solution Roadmap
+<img width="1280" alt="Screenshot 2020-07-30 at 16 23 33" src="https://user-images.githubusercontent.com/68426633/88976321-bf60ea00-d2b3-11ea-80f0-6f3cbb875354.png">
+<img width="1280" alt="Screenshot 2020-07-30 at 16 23 39" src="https://user-images.githubusercontent.com/68426633/88976336-c556cb00-d2b3-11ea-9eef-5de4c432bf71.png">
+<img width="1280" alt="Screenshot 2020-07-30 at 16 23 46" src="https://user-images.githubusercontent.com/68426633/88976351-ca1b7f00-d2b3-11ea-9fe3-883860786919.png">
 
 
 
@@ -48,6 +51,7 @@ To successfully mitigate difficulties associated to language barriers, Uni-QUICK
 * Creation of new intents in the context of Covid-19 social distancing UK
   Categpory 1: Restaurants and coffees / Sub-category 1: Discount and coupons for students   
   Category 2: Social Life on Campus and external, Transportation Information (University location)
+* Funding opportunities for development!!!!
 
 
 
