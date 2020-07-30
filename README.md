@@ -4,7 +4,7 @@ Smart AI differentiate Uni-QUICK from others Q&A systems, facilitating the manag
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Solution](#roadmap)
+* [Solution Roadmap](#solution-roadmap)
 * [Next Steps](#next-steps)
 
 ## General info
@@ -26,7 +26,7 @@ IBM cloud services/systems used in the project:
 * Watson Machine Learning 
 * Cloud Watson 
 
-## Solution
+## Solution Roadmap
 
 
 
