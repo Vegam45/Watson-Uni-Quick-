@@ -38,9 +38,6 @@ IBM cloud services/systems used in the project:
 * Cloud Watson 
 
 ## Solution Roadmap
-<img width="1280" alt="Screenshot 2020-07-30 at 16 23 33" src="https://user-images.githubusercontent.com/68426633/88976321-bf60ea00-d2b3-11ea-80f0-6f3cbb875354.png">
-<img width="1280" alt="Screenshot 2020-07-30 at 16 23 39" src="https://user-images.githubusercontent.com/68426633/88976336-c556cb00-d2b3-11ea-9eef-5de4c432bf71.png">
-<img width="1280" alt="Screenshot 2020-07-30 at 16 23 46" src="https://user-images.githubusercontent.com/68426633/88976351-ca1b7f00-d2b3-11ea-9fe3-883860786919.png">
 
 
 
