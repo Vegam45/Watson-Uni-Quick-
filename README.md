@@ -49,6 +49,8 @@ IBM cloud services/systems used in the project:
 
 ## Demo Video
 
+[![Watch the video](https://youtu.be/O1GSAi7Jz2A.png)](https://youtu.be/O1GSAi7Jz2A)
+
 
 
 ## Next Steps
