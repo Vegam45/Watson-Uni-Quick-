@@ -29,8 +29,9 @@ A sample of custom intents topics:
 * Context variables 
 * Slots 
 
-** Improve the system!
+** Improve the dialog!: review complexity, add intents, identify new relevant topics EDIT/TEST/DEMO
 
+![image](https://user-images.githubusercontent.com/68426633/89019862-e3edae00-d315-11ea-81f6-51634a41df0c.png)
 
 	
 ## Technologies
@@ -54,7 +55,11 @@ To successfully mitigate difficulties associated to language barriers, Uni-QUICK
 * Creation of new intents in the context of Covid-19 social distancing UK
   Categpory 1: Restaurants and coffees / Sub-category 1: Discount and coupons for students   
   Category 2: Social Life on Campus and external, Transportation Information (University location)
-* Funding opportunities for development!!!!
+* Watson working on: Platform, website, App
+* Start-up project linked to Watson AI and KM case study - in development 
+
+*** Funding opportunities for Uni-QUICK!- NEXT STEPS
+*** upgrades of current version and other licensing software for project development
 
 
 
