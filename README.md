@@ -42,14 +42,16 @@ IBM cloud services/systems used in the project:
 * Watson Machine Learning 
 * Cloud Watson 
 
+
 ## Solution Roadmap
 <img width="1280" alt="Screenshot 2020-07-30 at 22 56 03" src="https://user-images.githubusercontent.com/68426633/88978821-5465e200-d2b8-11ea-855f-2a6133972749.png">
 <img width="1280" alt="Screenshot 2020-07-30 at 22 56 11" src="https://user-images.githubusercontent.com/68426633/88978823-55970f00-d2b8-11ea-826e-4139402f60e9.png">
 <img width="1280" alt="Screenshot 2020-07-30 at 22 56 30" src="https://user-images.githubusercontent.com/68426633/88978828-5760d280-d2b8-11ea-96a5-59ffde20756a.png">
 
-## Demo Video
+## Demo Video 
 
-[![Watch the video](https://youtu.be/O1GSAi7Jz2A.png)](https://youtu.be/O1GSAi7Jz2A)
+
+![Watch the video](https://youtu.be/O1GSAi7Jz2A.png)](https://youtu.be/O1GSAi7Jz2A)
 
 
 
