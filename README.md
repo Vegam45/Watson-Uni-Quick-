@@ -57,6 +57,7 @@ To successfully mitigate difficulties associated to language barriers, Uni-QUICK
   Category 2: Social Life on Campus and external, Transportation Information (University location)
 * Watson working on: Platform, website, App
 * Start-up project linked to Watson AI and KM case study - in development 
+* Opportunities at IBM! Graduate Scheme:))
 
 *** Funding opportunities for Uni-QUICK!- NEXT STEPS
 *** upgrades of current version and other licensing software for project development
