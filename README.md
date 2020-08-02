@@ -55,6 +55,9 @@ IBM cloud services/systems used in the project:
 
 
 
+
+
+
 ## Next Steps
 To successfully mitigate difficulties associated to language barriers, Uni-QUICK will incorporate other Watson features such as speech to text and translation services as a part of the solution.
 
